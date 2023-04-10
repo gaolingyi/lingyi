@@ -1,9 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2023-04-08T13:20:32.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" version="21.1.5" etag="LdEaykxxt8WWEfSc6gnQ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T14:29:19.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="ctGVszUCWOWqcQFiNK3O" version="21.1.5" type="github">
   <diagram name="第 1 页" id="J0Y39tIQnbcdMVD-QTrS">
-    <mxGraphModel>
+    <mxGraphModel dx="1733" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;通知改变&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#fcfcfc;" vertex="1" parent="1">
+          <mxGeometry x="390" y="190" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;用户请求&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#fcfcfc;" vertex="1" parent="1">
+          <mxGeometry x="495" y="380" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-1" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;视 图&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;解释模型&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;模型更新请求&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;发送用户输入给控制器&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;允许控制器选择视图&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-3" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;模 型&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;封装应用程序状态&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;响应状态查询&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;应用程序功能&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;通知视图改变&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="60" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-4" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;控 制 器&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;定义应用程序行为&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;用户动作映射成模型更新&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;选择响应的视图&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="290" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.001;exitY=0.701;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="Hz2gaUtS_OLZ1aYjSFGk-1" target="Hz2gaUtS_OLZ1aYjSFGk-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="340" as="sourcePoint" />
+            <mxPoint x="670" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.006;exitY=0.337;exitDx=0;exitDy=0;entryX=0.997;entryY=0.291;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="Hz2gaUtS_OLZ1aYjSFGk-4" target="Hz2gaUtS_OLZ1aYjSFGk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="340" as="sourcePoint" />
+            <mxPoint x="570" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;视图选择&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#fcfcfc;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.01;entryY=0.466;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Hz2gaUtS_OLZ1aYjSFGk-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="139" as="sourcePoint" />
+            <mxPoint x="820" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0.396;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Hz2gaUtS_OLZ1aYjSFGk-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="230" as="sourcePoint" />
+            <mxPoint x="780" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-17" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;状态改变&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#fcfcfc;" vertex="1" parent="1">
+          <mxGeometry x="690" y="110" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.006;entryY=0.473;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Hz2gaUtS_OLZ1aYjSFGk-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="140" as="sourcePoint" />
+            <mxPoint x="430" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-19" value="" style="endArrow=none;html=1;rounded=0;exitX=0.525;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Hz2gaUtS_OLZ1aYjSFGk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="230" as="sourcePoint" />
+            <mxPoint x="350" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-20" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;状态查询&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#fcfcfc;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-22" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.014;entryY=0.762;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" target="Hz2gaUtS_OLZ1aYjSFGk-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="190" as="sourcePoint" />
+            <mxPoint x="430" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.766;entryY=-0.012;entryDx=0;entryDy=0;dashed=1;entryPerimeter=0;" edge="1" parent="1" target="Hz2gaUtS_OLZ1aYjSFGk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="190" as="sourcePoint" />
+            <mxPoint x="420" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="490" as="sourcePoint" />
+            <mxPoint x="480" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-26" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;方法调用&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#fcfcfc;" vertex="1" parent="1">
+          <mxGeometry x="480" y="480" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-27" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="490" as="sourcePoint" />
+            <mxPoint x="680" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hz2gaUtS_OLZ1aYjSFGk-28" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;事件&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#fcfcfc;" vertex="1" parent="1">
+          <mxGeometry x="690" y="480" width="90" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
